@@ -2,10 +2,12 @@
 import {createGlobalStyle} from 'style-components'
 import CovidImg from '../../assets/images/covid.jpg'
 
-const globalStyle = createGlobalStyle`
-    * {
+const globalStyle = createGlobalStyle
+    
+/*
+* {
         outline:none,
-        box-sizing: border-box;
+        box-sizing : border-box;
     }
     body{
         line-height:sizing;
@@ -17,7 +19,7 @@ const globalStyle = createGlobalStyle`
         padding:0;
         margin:0;
     }
-    #root{
+    this.#root{
         background:url(${CovidImg});
         height:100%;
         width:100%;
@@ -32,6 +34,6 @@ const globalStyle = createGlobalStyle`
       }
     .cursor {
         cursor: pointer;
-      }
+      }**/
 
     export default globalStyle
