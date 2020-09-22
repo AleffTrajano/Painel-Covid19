@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Painel-Covid19
+Covid-19 Counter Progressive Web App desenvolvido para fins de aprendizagem utilizando ReactJs O aplicativo rastreia os números relacionados à doença covid-19 usando o covidAPI de Javier Aviles. Acesso através de navegador e dispositivo móvel compatível com PWA para verificação de funcionalidades.
+>>>>>>> 064092d4bfc9cc20db6ad894b58d0d2ce3e34568
