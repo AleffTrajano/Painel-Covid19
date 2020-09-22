@@ -1,11 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import { StylesProvider } from '@material-ui/styles'
+import {CssBaseLine} from '@material-ui/core'
+import GlobalStyle from './commons/styles/global-style'
+import Main from './containers/Main'
 
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <StylesProvider injectFirst>
+      <CssBaseLine/>
+      <GlobalStyle/>
+      <div>
+        Teste
+      </div>
+    </StylesProvider>
+
+     
   );
 }
 
