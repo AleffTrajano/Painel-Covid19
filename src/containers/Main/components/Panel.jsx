@@ -25,7 +25,7 @@ function Panel({ updatedAt, onChange, data, country, getCovidData }) {
     navigator.share({
       title: `Dados do Coronel Virus - ${country}`,
       text: textCovid19,
-      url: 'https://painelcoronelvirus.netlify.ap',
+      url: 'https: // painelcoronelvirus. netlify.app',
     })
   }
 
@@ -37,7 +37,7 @@ function Panel({ updatedAt, onChange, data, country, getCovidData }) {
   const renderShareButton = (
     <div>
       <Button variant="contained" color="primary" onClick={shareInfo}>
-        Compartilhar
+        Compartilhar Abestado
       </Button>
     </div>
   )
